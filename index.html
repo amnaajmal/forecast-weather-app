@@ -5,21 +5,23 @@
   <title>WEATHEER APP</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
+  crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
+  crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
+  crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
+  crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/weather-icons-wind.css">
   <link rel="stylesheet" href="css/weather-icons-wind.min.css">
   <link rel="stylesheet" href="css/weather-icons.css">
   <link rel="stylesheet" href="css/weather-icons.min.css">
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-    crossorigin="anonymous">
+  crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
   <script type="text/javascript" src="script.js"></script>
 </head>
@@ -37,132 +39,147 @@
     <div class="weather-info">
       <h1 class="city-name"></h1>
       <content class="date"></content>
-      <h4 class="temprature">Temp
-        <span> </span>°</h4>
+      <h4 class="temprature" style="font-size: 2em">
+        <span style="font-size: 2em"> </span>°
+      </h4>
       <p class="icon"></p>
       <p class="discription"></p>
       <p class="temp-range">
-        
+
         <span class="min"></span>° / 
         <span class="max"> </span>°
       </p>
       <p class="hum"> 
-        <span> </span>%</p>
+        <span> </span>%
+      </p>
     </div>
-  </div>
 
-  <main class="weather-app">
-    <ul class="days-of-the-week">
 
-      <li class="monday active">
-        <h3>Monday</h3>
-        <h5 class="mndy-temp">Temp
-          <span> </span>°</h5>
-        <p class="mndy-icon"></p>
-        <em class="mndy-wthr"></em>
-        <p class="temp-range">
-          
-          <span class="mndy-min"></span>° / 
-          <span class="mndy-max"> </span>°
-        </p>
-        <p class="mndy-hum"> 
-          <span> </span>%</p>
+    <main class="weather-app">
+      <ul class="days-of-the-week">
 
-      </li>
+        <li class="monday active">
+          <h3>Monday</h3>
+          <h5 class="mndy-temp">
+            <span> </span>°
+          </h5>
+          <p class="mndy-icon"></p>
+          <em class="mndy-wthr"></em>
+          <p class="temp-range">
 
-      <li class="tuesday">
-        <h3>Tuesday</h3>
-        <h5 class="tsdy-temp">Temp
-          <span> </span>°</h5>
-        <p class="tsdy-icon"></p>
-        <em class="tsdy-wthr"></em>
-        <p class="temp-range">
-          
-          <span class="tsdy-min"></span>° / 
-          <span class="tsdy-max"> </span>°
-        </p>
-        <p class="tsdy-hum"> 
-          <span> </span>%</p>
-      </li>
+            <span class="mndy-min"></span>° / 
+            <span class="mndy-max"> </span>°
+          </p>
+          <p class="mndy-hum"> 
+            <span> </span>%
+          </p>
 
-      <li class="wednesday">
-        <h3>Wednesday</h3>
-        <h5 class="wndy-temp">Temp
-          <span> </span>°</h5>
-        <p class="wndy-icon"></p>
-        <p class="temp-range">
-          
-          <span class="wndy-min"></span>° / 
-          <span class="wndy-max"> </span>°
-        </p>
-        <p class="wndy-hum"> 
-          <span> </span>%</p>
-        <em class="wndy-wthr"></em>
-        </div>
-      </li>
+        </li>
 
-      <li class="thursday">
-        <h3>Thursday</h3>
-        <h5 class="trsdy-temp">Temp
-          <span> </span>°</h5>
-        <p class="trsdy-icon"></p>
-        <em class="trsdy-wthr"></em>
-        <p class="temp-range">
-          
-          <span class="trsdy-min"></span>° / 
-          <span class="trsdy-max"> </span>°
-        </p>
-        <p class="trsdy-hum"> Humidity
-          <span> </span>%</p>
-      </li>
+        <li class="tuesday">
+          <h3>Tuesday</h3>
+          <h5 class="tsdy-temp">
+            <span> </span>°
+          </h5>
+          <p class="tsdy-icon"></p>
+          <em class="tsdy-wthr"></em>
+          <p class="temp-range">
 
-      <li class="friday">
-        <h3>Friday</h3>
-        <h5 class="fdy-temp">Temp
-          <span> </span>°</h5>
-        <p class="fdy-icon"></p>
-        <em class="fdy-wthr"></em>
-        <p class="temp-range">
-          
-          <span class="fdy-min"></span>° / 
-          <span class="fdy-max"> </span>°
-        </p>
-        <p class="fdy-hum"> 
-          <span> </span>%</p>
-      </li>
+            <span class="tsdy-min"></span>° / 
+            <span class="tsdy-max"> </span>°
+          </p>
+          <p class="tsdy-hum"> 
+            <span> </span>%
+          </p>
+        </li>
 
-      <li class="saturday">
-        <h3>Saturday</h3>
-        <h5 class="stdy-temp">Temp
-          <span> </span>°</h5>
-        <p class="stdy-icon"></p>
-        <em class="stdy-wthr"></em>
-        <p class="temp-range">
-          
-          <span class="stdy-min"></span>° / 
-          <span class="stdy-max"> </span>°
-        </p>
-        <p class="stdy-hum"> 
-          <span> </span>%</p>
-      </li>
+        <li class="wednesday">
+          <h3>Wednesday</h3>
+          <h5 class="wndy-temp">
+            <span> </span>°
+          </h5>
+          <p class="wndy-icon"></p>
+          <em class="wndy-wthr"></em>
+          <p class="temp-range">
 
-      <li class="sunday">
-        <h3>Sunday</h3>
-        <h5 class="sndy-temp">Temp
-          <span> </span>°</h5>
-        <p class="sndy-icon"></p>
-        <em class="sndy-wthr"></em>
-        <p class="temp-range">
-          
-          <span class="sndy-min"></span>° / 
-          <span class="sndy-max"> </span>°
-        </p>
-        <p class="sndy-hum"> 
-          <span> </span>%</p>
-      </li>
+            <span class="wndy-min"></span>° / 
+            <span class="wndy-max"> </span>°
+          </p>
+          <p class="wndy-hum"> 
+            <span> </span>%
+          </p>
+        </li>
 
-    </ul>
-  </main>
-</body>
+        <li class="thursday">
+          <h3>Thursday</h3>
+          <h5 class="trsdy-temp">
+            <span> </span>°
+          </h5>
+          <p class="trsdy-icon"></p>
+          <em class="trsdy-wthr"></em>
+          <p class="temp-range">
 
-</html>
+            <span class="trsdy-min"></span>° / 
+            <span class="trsdy-max"> </span>°
+          </p>
+          <p class="trsdy-hum"> 
+            <span> </span>%
+          </p>
+        </li>
+
+        <li class="friday">
+          <h3>Friday</h3>
+          <h5 class="fdy-temp">
+            <span> </span>°
+          </h5>
+          <p class="fdy-icon"></p>
+          <em class="fdy-wthr"></em>
+          <p class="temp-range">
+
+            <span class="fdy-min"></span>° / 
+            <span class="fdy-max"> </span>°
+          </p>
+          <p class="fdy-hum"> 
+            <span> </span>%
+          </p>
+        </li>
+
+        <li class="saturday">
+          <h3>Saturday</h3>
+          <h5 class="stdy-temp">
+            <span> </span>°
+          </h5>
+          <p class="stdy-icon"></p>
+          <em class="stdy-wthr"></em>
+          <p class="temp-range">
+
+            <span class="stdy-min"></span>° / 
+            <span class="stdy-max"> </span>°
+          </p>
+          <p class="stdy-hum"> 
+            <span> </span>%
+          </p>
+        </li>
+
+        <li class="sunday">
+          <h3>Sunday</h3>
+          <h5 class="sndy-temp">
+            <span> </span>°
+          </h5>
+          <p class="sndy-icon"></p>
+          <em class="sndy-wthr"></em>
+          <p class="temp-range">
+
+            <span class="sndy-min"></span>° / 
+            <span class="sndy-max"> </span>°
+          </p>
+          <p class="sndy-hum"> 
+            <span> </span>%
+          </p>
+        </li>
+
+      </ul>
+    </main>
+  </body>
+
+  </html>
