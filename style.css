@@ -1,13 +1,22 @@
 body{
-	color: white;
-	    background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/D8qa-2E/rainy-stormy-darkness-wet-weather-background-depressed-sad-background_bzxjr4x7h__F0000.png');
-    background-size: cover;
-    background-repeat: no-repeat;
+	color: black;
+	background-image: url('https://wallpaperbrowse.com/media/images/HD-Wallpapers1_FOSmVKg_FpmuGEs.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Poiret One', cursive !important;
+	font-weight: bold;
+}
+h5{
+	color: black;
+	font-size: 10px;
+}
+.temp-range, p{
+	color: black;
 }
 .btn{
-    border-color: white;
-    color: white;
-    background-color: grey;
+	border-color: white;
+	color: white;
+	background-color: grey;
 }
 .wi{
 	font-size: 5em;
@@ -21,6 +30,9 @@ body{
 }
 .temprature{
 	font-size: 2em;
+}
+span,em{
+	font-size: 14px;
 }
 .discription{
 	font-size: 2em;
@@ -38,7 +50,6 @@ body {
 	font-family: Questrial;
 
 }
-
 .weather-app {
 	width: 100%;
 	height: 100vh;
@@ -47,6 +58,8 @@ body {
 	margin-top: 50px;
 	overflow: hidden;
 	max-height: 350px;
+	font-family: 'Lusitana', cursive !important;
+
 }
 .days-of-the-week {
 	width: 100%;
@@ -56,9 +69,9 @@ body {
 	overflow: hidden;
 }
 .days-of-the-week li {
+	color: black;
 	width: 12.8%;
 	height: auto;
-	min-height: 350px!important;
 	border: none;
 	display: inline-block;
 	transition: ease .2s;
@@ -72,122 +85,86 @@ body {
 	text-shadow: 0px 1px 3px #333;
 	margin-left: -3px;
 	margin-right: -3px;
-	color: white;
-}
-.days-of-the-week li:hover {
-	padding-left: 60px;
-	padding-right: 60px;
-}
-.days-of-the-week li:nth-child(odd):hover {
-	background-position: 100% center;
-}
-.days-of-the-week li:nth-child(even):hover {
-	background-position: 0 center;
 }
 .days-of-the-week li h3 {
 	transition: ease .25s;
 	font-size: 10px;
-	color: #999;
-}
-.days-of-the-week li:hover h3 {
-	color: #fff;
+	color:black;
 }
 .monday {
-	background: url('https://static.pexels.com/photos/113/sky-clouds-cloudy-weather-medium.jpg') no-repeat center center;
-	background-size: cover;
-	-webkit-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-	-moz-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-	box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-	position: relative;
-	z-index: 12;
-}
+		background-size: cover;
+		-webkit-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+		-moz-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+		box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+		position: relative;
+		z-index: 12;
+	}
 .tuesday {
-	background: url('https://pixfeeds.com/images/14/388569/1200-497100312-cumulus-clouds.jpg') no-repeat center center;
-	background-size: cover;
-	-webkit-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-	-moz-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-	box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-	position: relative;
-	z-index: 10;
-}
+		background-size: cover;
+		-webkit-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+		-moz-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+		box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+		position: relative;
+		z-index: 10;
+	}
 .wednesday {
-	background: url('https://static.pexels.com/photos/799/city-lights-night-clouds-medium.jpg') no-repeat center center;
-	background-size: cover;
-	-webkit-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-	-moz-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-	box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-	position: relative;
-	z-index: 9;
-}
+		background-size: cover;
+		-webkit-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+		-moz-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+		box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+		position: relative;
+		z-index: 9;
+	}
 .thursday {
-	background: url('https://static.pexels.com/photos/896/city-weather-glass-skyscrapers-medium.jpg') no-repeat center center;
-	background-size: cover;
-	-webkit-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-	-moz-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-	box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-	position: relative;
-	z-index: 8;
-}
+		background-size: cover;
+		-webkit-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+		-moz-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+		box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+		position: relative;
+		z-index: 8;
+	}
 .friday {
-	background: url('https://atomikaztex.files.wordpress.com/2009/07/mammatus-storm-clouds_san-antonio1.jpg') no-repeat center center;
-	background-size: cover;
-	-webkit-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-	-moz-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-	box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-	position: relative;
-	z-index: 7;
-}
+		background-size: cover;
+		-webkit-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+		-moz-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+		box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+		position: relative;
+		z-index: 7;
+	}
 .saturday {
-	background: url('https://static.pexels.com/photos/3768/sky-sunny-clouds-cloudy-medium.jpg') no-repeat center center;
-	background-size: cover;
-	-webkit-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-	-moz-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-	box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-	position: relative;
-	z-index: 6;
-}
+		background-size: cover;
+		-webkit-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+		-moz-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+		box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+		position: relative;
+		z-index: 6;
+	}
 .sunday {
-	background: url('https://static.pexels.com/photos/6923/mountains-fog-green-beauty-large.jpg') no-repeat center center;
-	background-size: cover;
-	position: relative;
-	z-index: 5;
-}
+		background-size: cover;
+		position: relative;
+		z-index: 5;
+	}
 .active {
-	padding-left: 40px;
-	padding-right: 40px;
-	color: white;
-}
-.days-of-the-week li:hover .fa {
-	top: 100px;
-	opacity: .95;
-	font-size: 50px;
-	color: #fff;
-}
+		padding-left: 40px;
+		padding-right: 40px;
+		color: black;
+	}
 b {
-	font-size: 10px;
-	padding-top: 50px;
-}
+		font-size: 10px;
+		padding-top: 50px;
+	}
 .days-of-the-week a {
-	display: none;
-}
+		display: none;
+	}
 .days-of-the-week img {
-	display: none;
-}
+		display: none;
+	}
 em {
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	transition: ease .3s;
-}
-.days-of-the-week li:hover em {
-	bottom: 10px;
-	color: #fff;
-	font-size: 20px;
+	color:black;
 }
 @media (max-width:1000px) {
 	.days-of-the-week li h3 {
-		font-size: 16px;
+		font-size: 12px;
 	}
 }
 @media (max-width:750px) {
@@ -201,24 +178,22 @@ em {
 		display: block;
 		text-align: center;
 	}
-	.days-of-the-week li h3 {
+.days-of-the-week li h3 {
 		font-size: 30px;
 	}
-	.weather-app {
+.weather-app {
 		height: 100%;
 		max-height: 100%;
 		max-width: 100%;
 		width: 100%;
 		text-align: center;
 	}
-	.days-of-the-week li {
+.days-of-the-week li {
 		padding: 0px;
-		color: white;
+		color: black;
 	}
-	.days-of-the-week li:hover {
-		padding: 0px;
+
+.days-of-the-week {
+			height: 100%;
+		}
 	}
-	.days-of-the-week {
-		height: 100%;
-	}
-}
