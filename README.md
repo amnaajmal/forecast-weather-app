@@ -12,7 +12,7 @@ openwetahermap.org API
 
 visual studio code/sublime
 
- ##languages uses.
+ ## languages uses.
 
 HTML
 CSS
