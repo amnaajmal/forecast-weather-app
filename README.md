@@ -1,24 +1,24 @@
 # forecast-weather-app
 
-Project Title
+# Project Title
 
 Weekly Weather App
 
-API
+## API
 
 openwetahermap.org API
 
-INSTALLATION
+# INSTALLATION
 
 visual studio code/sublime
 
-languages uses.
+ ##languages uses.
 
 HTML
 CSS
 JAVASCRIPT 
 
-Link
+### Link
 
 JQUERY
 BOOTSTRAP
