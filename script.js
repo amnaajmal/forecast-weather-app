@@ -22,7 +22,7 @@ function getWeather() {
 			let iconName = data.list[0].weather[0].main;
 			if (iconName === `Clouds`) {
 				document.querySelector(".icon").innerHTML = `<i class="wi wi-cloud"></i>`;
-				document.body.style.backgroundImage = "url('http://4.bp.blogspot.com/-1BmzmaRJ-_c/UVfQLT66iqI/AAAAAAAACaE/uJbILiIvMx0/s1600/sky+cloud+wallpapers+hd+(3).png')";
+				document.body.style.backgroundImage = "url('http://jonvilma.com/images/cloud-11.jpg')";
 
 			} else if (iconName === `Rain`) {
 				document.querySelector(".icon").innerHTML = `<i class="wi wi-rain"></i>`;
