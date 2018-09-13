@@ -2,6 +2,8 @@ body{
 	color: black;
 	background-image: url('https://wallpaperbrowse.com/media/images/HD-Wallpapers1_FOSmVKg_FpmuGEs.jpeg');
 	background-size: cover;
+	    height: 100vh;
+    	background-position: bottom;
 	background-repeat: no-repeat;
 	font-family: 'Poiret One', cursive !important;
 	font-weight: bold;
