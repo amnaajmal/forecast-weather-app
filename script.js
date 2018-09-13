@@ -26,7 +26,7 @@ function getWeather() {
 
 			} else if (iconName === `Rain`) {
 				document.querySelector(".icon").innerHTML = `<i class="wi wi-rain"></i>`;
-				document.body.style.backgroundImage = "url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/D8qa-2E/rainy-stormy-darkness-wet-weather-background-depressed-sad-background_bzxjr4x7h__F0000.png')";
+				document.body.style.backgroundImage = "url('http://i.ytimg.com/vi/Sv0LwXYAVVg/maxresdefault.jpg')";
 			}else if (iconName === `Snow`) {
 				document.querySelector(".icon").innerHTML = `<i class="wi wi-snow"></i>`;
 				document.body.style.backgroundImage = "url('https://i.ytimg.com/vi/r6VkCdQQdG0/maxresdefault.jpg')";
