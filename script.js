@@ -6,6 +6,8 @@ function intialize(){
 	})
 }
 function getWeather() {
+	document.querySelector("h4").style.display = "none";
+
 	document.querySelector(".weather-info").style.display = "block";
 	document.querySelector(".weather-app").style.display = "block";
 	const cityName = document.querySelector("input").value;
@@ -22,25 +24,27 @@ function getWeather() {
 			let iconName = data.list[0].weather[0].main;
 			if (iconName === `Clouds`) {
 				document.querySelector(".icon").innerHTML = `<i class="wi wi-cloud"></i>`;
-				document.body.style.backgroundImage = "url('http://jonvilma.com/images/cloud-11.jpg')";
+				document.body.style.backgroundImage = "url('https://i.gifer.com/6H8.gif')";
 
 			} else if (iconName === `Rain`) {
 				document.querySelector(".icon").innerHTML = `<i class="wi wi-rain"></i>`;
-				document.body.style.backgroundImage = "url('http://i.ytimg.com/vi/Sv0LwXYAVVg/maxresdefault.jpg')";
+				document.body.style.backgroundImage = "url('https://media.giphy.com/media/H0lpXCiNHQjlK/giphy.gif')";
+	
+
 			}else if (iconName === `Snow`) {
 				document.querySelector(".icon").innerHTML = `<i class="wi wi-snow"></i>`;
 				document.body.style.backgroundImage = "url('https://i.ytimg.com/vi/r6VkCdQQdG0/maxresdefault.jpg')";
 				document.body.style.color="white";
 			} else if (iconName === `Sunny`) {
 				document.querySelector(".icon").innerHTML = `<i class="wi wi--day-sunny"></i>`;
-				document.body.style.backgroundImage = "url('http://images6.fanpop.com/image/photos/36600000/Sun-star-image-sun-star-36682661-1920-1080.jpg')";
+				document.body.style.backgroundImage = "url('https://i.pinimg.com/originals/3a/76/20/3a762091c6d9fb10d75ed9793d3beb29.gif')";
 			} else if (iconName === `Haze`) {
 				document.querySelector(".icon").innerHTML = `<i class="wi wi-day-haze"></i>`;
 				document.body.style.backgroundImage = "url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/nz06K7R/dark-scary-lake-at-night-background-loop-raw-1-white-haze-floating-over-the-still-lake-surrounded-by-a-creepy-forest-seamless-looping-perfect-for-backgrounds-backdrops-intro-outro-or-credits-for-themes-like-halloween-apocalypse_v1-sfrwh__F0000.png')";
 
 			} else if (iconName === `Clear`) {
 				document.querySelector(".icon").innerHTML = `<i class="wi wi-night-clear"></i>`;
-				document.body.style.backgroundImage = "url('https://jooinn.com/images/blue-sky-99.jpg')";
+				document.body.style.backgroundImage = "url('http://media.giphy.com/media/11b7e7kuzp5tx6/giphy.gif')";
 
 			}
 			else {
