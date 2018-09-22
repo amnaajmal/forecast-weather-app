@@ -2,11 +2,25 @@ body{
 	color: black;
 	background-image: url('capture.png');
 	background-size: cover;
-	height: 135vh;
+	height: 150vh;
 	background-position: bottom;
 	background-repeat: no-repeat;
 	font-family: 'Poiret One', cursive !important;
 	font-weight: bold;
+}
+img {
+	border-radius: 50%;
+	float: left;
+	height: 50px;
+	width: 50px;
+	color: white;
+
+	transition: transform .2s; /* Animation */
+	margin: 1em;
+	
+}
+img:hover{
+	transform: scale(1.5);
 }
 h5{
 	color: black;
