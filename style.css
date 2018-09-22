@@ -1,9 +1,9 @@
 body{
 	color: black;
-	background-image: url('https://wallpaperbrowse.com/media/images/HD-Wallpapers1_FOSmVKg_FpmuGEs.jpeg');
+	background-image: url('capture.png');
 	background-size: cover;
-	    height: 100vh;
-    	background-position: bottom;
+	height: 135vh;
+	background-position: bottom;
 	background-repeat: no-repeat;
 	font-family: 'Poiret One', cursive !important;
 	font-weight: bold;
@@ -11,6 +11,9 @@ body{
 h5{
 	color: black;
 	font-size: 10px;
+}
+h1,h4{
+	color: white;
 }
 .temp-range, p{
 	color: black;
@@ -94,73 +97,73 @@ body {
 	color:black;
 }
 .monday {
-		background-size: cover;
-		-webkit-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-		-moz-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-		box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-		position: relative;
-		z-index: 12;
-	}
+	background-size: cover;
+	-webkit-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+	-moz-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+	box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+	position: relative;
+	z-index: 12;
+}
 .tuesday {
-		background-size: cover;
-		-webkit-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-		-moz-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-		box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-		position: relative;
-		z-index: 10;
-	}
+	background-size: cover;
+	-webkit-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+	-moz-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+	box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+	position: relative;
+	z-index: 10;
+}
 .wednesday {
-		background-size: cover;
-		-webkit-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-		-moz-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-		box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-		position: relative;
-		z-index: 9;
-	}
+	background-size: cover;
+	-webkit-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+	-moz-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+	box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+	position: relative;
+	z-index: 9;
+}
 .thursday {
-		background-size: cover;
-		-webkit-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-		-moz-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-		box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-		position: relative;
-		z-index: 8;
-	}
+	background-size: cover;
+	-webkit-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+	-moz-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+	box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+	position: relative;
+	z-index: 8;
+}
 .friday {
-		background-size: cover;
-		-webkit-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-		-moz-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-		box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-		position: relative;
-		z-index: 7;
-	}
+	background-size: cover;
+	-webkit-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+	-moz-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+	box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+	position: relative;
+	z-index: 7;
+}
 .saturday {
-		background-size: cover;
-		-webkit-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-		-moz-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-		box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
-		position: relative;
-		z-index: 6;
-	}
+	background-size: cover;
+	-webkit-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+	-moz-box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+	box-shadow: 8px 0px 12px -1px rgba(0, 0, 0, 0.53);
+	position: relative;
+	z-index: 6;
+}
 .sunday {
-		background-size: cover;
-		position: relative;
-		z-index: 5;
-	}
+	background-size: cover;
+	position: relative;
+	z-index: 5;
+}
 .active {
-		padding-left: 40px;
-		padding-right: 40px;
-		color: black;
-	}
+	padding-left: 40px;
+	padding-right: 40px;
+	color: black;
+}
 b {
-		font-size: 10px;
-		padding-top: 50px;
-	}
+	font-size: 10px;
+	padding-top: 50px;
+}
 .days-of-the-week a {
-		display: none;
-	}
+	display: none;
+}
 .days-of-the-week img {
-		display: none;
-	}
+	display: none;
+}
 em {
 	color:black;
 }
@@ -180,22 +183,22 @@ em {
 		display: block;
 		text-align: center;
 	}
-.days-of-the-week li h3 {
+	.days-of-the-week li h3 {
 		font-size: 30px;
 	}
-.weather-app {
+	.weather-app {
 		height: 100%;
 		max-height: 100%;
 		max-width: 100%;
 		width: 100%;
 		text-align: center;
 	}
-.days-of-the-week li {
+	.days-of-the-week li {
 		padding: 0px;
 		color: black;
 	}
 
-.days-of-the-week {
-			height: 100%;
-		}
+	.days-of-the-week {
+		height: 100%;
 	}
+}
