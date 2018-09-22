@@ -28,14 +28,17 @@
 
 <body onload="intialize()">
   <div class="container">
+    <h1>Weather App</h1>
     <div class="input-group mb-3">
-      <input type="text" class="form-control" placeholder="enter city name" aria-label="Recipient's username" aria-describedby="button-addon2">
+      <input type="text" class="form-control" placeholder="enter city name " aria-label="Recipient's username" aria-describedby="button-addon2">
       <div class="input-group-append" onclick="getWeather()">
         <button id="search-btn" class="btn btn-outline-secondary" type="button" id="button-addon2">
           <i class="fas fa-search"></i>
         </button>
       </div>
     </div>
+    <h4>Checking Weekly Weather</h4>
+
     <div class="weather-info">
       <h1 class="city-name"></h1>
       <div class="date"></div>
